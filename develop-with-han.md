@@ -10,8 +10,7 @@
 
 ### Phase 0: Vision, Design & Strategy (Planning)
 
-**Duration:** 2-5 days  
-**HITL Gate:** Stakeholder approval before Phase 1  
+**HITL Gate:** Stakeholder approval before Phase 1
 **Cost of deferring:** 5-30x more expensive if moved to Phase 2
 
 **What happens:**
@@ -55,7 +54,6 @@
 
 ### Phase 1: Core Implementation (Building)
 
-**Duration:** 1-4 weeks  
 **HITL Gate:** Testing pass before Phase 2
 
 **What happens:**
@@ -98,7 +96,6 @@
 
 ### Phase 2: Refinement & Polish (Improving)
 
-**Duration:** 3-7 days  
 **HITL Gate:** Comprehensive testing pass before Phase 3
 
 **What happens:**
@@ -143,7 +140,6 @@
 
 ### Phase 3: Deployment & Monitoring (Launching)
 
-**Duration:** 1-3 days  
 **HITL Gate:** Launch approval, monitoring active
 
 **What happens:**
@@ -161,7 +157,7 @@
    - Activate monitoring
    - Activate error tracking
 
-3. **Monitor** (First 24 hours)
+3. **Monitor**
    - Watch error logs
    - Gather user feedback
    - Monitor performance
@@ -183,7 +179,7 @@
 - [ ] Stakeholder approval obtained
 - [ ] Deployed to production
 - [ ] Monitoring active
-- [ ] First 24 hours passed successfully
+- [ ] Post-launch monitoring active and clean
 
 ---
 
@@ -217,9 +213,8 @@ Answer these questions:
 
 1. **Vision** — What are we building? (rough idea)
 2. **Scope** — What are core features? What's nice-to-have?
-3. **Timeline** — When do we need it?
-4. **Constraints** — RTL? Mobile? Accessibility? Browsers?
-5. **Resources** — Who's involved?
+3. **Constraints** — RTL? Mobile? Accessibility? Browsers?
+4. **Resources** — Who's involved?
 
 ### During Each Phase
 
@@ -293,14 +288,11 @@ A: No. Design is locked in Phase 0. Phase 1 is implementation only. Changes go t
 **Q: Can I add features in Phase 2?**  
 A: No. Phase 2 is refinement only (fixing, polishing, testing). New features = next version.
 
-**Q: What if something takes longer than expected?**  
-A: Timeline estimates are flexible. Extend the phase. Don't cut HITL gates or testing.
+**Q: Can I skip Phase 0?**
+A: Not recommended. Phase 0 prevents 80% of rework. Vision decisions are cheap in Phase 0 and expensive in Phase 2.
 
-**Q: Can I skip Phase 0?**  
-A: Not recommended. Phase 0 prevents 80% of rework. 5 hours of planning saves 40 hours of rework.
-
-**Q: What if I'm working solo?**  
-A: Same phases. You're both the builder and the approver. Phase 0 takes you 2 days, Phase 1 takes you 1-2 weeks, etc.
+**Q: What if I'm working solo?**
+A: Same phases. You're both the builder and the approver. Phase 0 forces clarity on yourself before you build anything.
 
 ---
 

@@ -25,28 +25,24 @@ This methodology prevents that.
 ### Phase 0: Vision, Design & Strategy (Planning)
 Lock vision, design system, and constraints *before* building anything.
 
-**Duration:** 2-5 days
 **Outcome:** Locked decisions, approved plan
 **Cost of deferring:** 5-30x more expensive if moved to later phases
 
 ### Phase 1: Core Implementation (Building)
 Build the MVP using the design system from Phase 0. No design decisions here.
 
-**Duration:** 1-4 weeks
 **Outcome:** Working MVP with core features
 **Testing:** On target devices as you build
 
 ### Phase 2: Refinement & Polish (Improving)
 Fix UX issues, add polish, run comprehensive testing.
 
-**Duration:** 3-7 days
 **Outcome:** Polished, tested product ready to launch
 **Testing:** Cross-browser, mobile, accessibility, performance
 
 ### Phase 3: Deployment & Monitoring (Launching)
 Deploy to production, verify, monitor for issues.
 
-**Duration:** 1-3 days
 **Outcome:** Live product, monitoring active, issues logged
 **Testing:** Real-world usage, user feedback
 
@@ -55,7 +51,7 @@ Deploy to production, verify, monitor for issues.
 ## Why This Works
 
 **Phase 0 prevents 80% of rework.**
-5 hours of planning saves 40 hours of rebuilding. Vision decisions are cheap in Phase 0, expensive in Phase 2.
+Vision decisions are cheap in Phase 0, expensive in Phase 2.
 
 **Phases are sequential, not flexible.**
 You can't add features in Phase 2. You can't redesign in Phase 1. Clear boundaries = predictable scope.
@@ -111,32 +107,31 @@ Works the same way with Cursor, Windsurf, or any AI coding tool that reads files
 
 ---
 
-## Real Example Timeline
+## Real Example
 
 **Project:** E-commerce dashboard for store managers
 
-**Phase 0:** 3 days
+**Phase 0:**
 - Vision: "Store manager command center for real-time decisions"
 - Design system: Colors, typography, spacing locked
 - Constraints: Mobile-first, RTL support
 - Approval: ✅ Signed off
 
-**Phase 1:** 2 weeks
+**Phase 1:**
 - 1.0: Core features (dashboard, analytics, promotions)
 - 1.1: Bug fixes from testing
 - 1.2: Polish & refinement
 
-**Phase 2:** 4 days
+**Phase 2:**
 - Comprehensive testing (cross-browser, mobile, accessibility)
 - Performance optimization
 - Final polish
 
-**Phase 3:** 1 day
+**Phase 3:**
 - Deploy to production
 - Monitor for issues
 - Celebrate
 
-**Total:** ~23 days from vision to live
 **No surprises:** Every phase delivered what Phase 0 promised
 
 ---
