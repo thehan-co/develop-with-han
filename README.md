@@ -8,48 +8,6 @@ A 4-phase project methodology for planning and execution. Lock vision before pix
 
 ---
 
-## How to Use
-
-**1. Download**
-Get `develop-with-han.md` from this repo.
-
-**2. Add to your AI assistant**
-Paste it into your Claude.ai project instructions, ChatGPT custom instructions, or any AI tool that accepts context. It becomes your AI's working methodology.
-
-**3. Drop it in your project root**
-```
-your-project/
-├── develop-with-han.md   ← here
-├── src/
-└── ...
-```
-
-**4. Start working**
-Begin at Phase 0. Don't skip it.
-
-**5. Call it in Claude Code**
-
-Point Claude Code at the methodology and tell it where you are:
-
-```bash
-# Start a new project from Phase 0
-claude "Read develop-with-han.md. Help me complete Phase 0 for [project name]. Ask me the vision questions."
-
-# Audit where you actually are
-claude "Read develop-with-han.md. Audit this project and tell me which phase we're in and what's missing."
-
-# Gate check before moving phases
-claude "Read develop-with-han.md. We think we're ready to move from Phase 1 to Phase 2. Run the gate check."
-
-# Resume after time away
-claude "Read develop-with-han.md. Summarize current phase status and give me the next 3 actions."
-
-# End-of-phase handoff
-claude "Read develop-with-han.md. We just finished Phase 1. Write the phase summary and what Phase 2 needs to know."
-```
-
----
-
 ## The Problem
 
 Most projects suffer from the same pattern:
@@ -107,6 +65,49 @@ You approve before moving forward. No surprises.
 
 **Version tracking (x.y) shows progress.**
 Phase 1.0, 1.1, 1.2 → Phase 2.0 → Launch. You always know where you are.
+
+---
+
+## How to Use
+
+1. Download `develop-with-han.md` from this repo
+2. Drop it in your project root folder
+3. Open it in your browser or text editor — read it once
+4. Start at Phase 0. Don't skip it.
+
+```
+your-project/
+├── develop-with-han.md   ← here
+├── src/
+└── ...
+```
+
+---
+
+## In Your AI Coder
+
+Drop the file in your project root. Then point your AI coding tool at it.
+
+**Claude Code — copy and run:**
+
+```bash
+# Start Phase 0 on a new project
+claude "Read develop-with-han.md. Start Phase 0 for [project name]. Ask me the vision questions."
+
+# Find out which phase you're actually in
+claude "Read develop-with-han.md. Audit this project. Which phase are we in and what's incomplete?"
+
+# Gate check before moving to the next phase
+claude "Read develop-with-han.md. Are we ready to move from Phase 1 to Phase 2? Run the gate check."
+
+# Resume after time away
+claude "Read develop-with-han.md. What phase are we in? Give me the next 3 actions."
+
+# Close out a phase
+claude "Read develop-with-han.md. Phase 1 is done. Write the summary and brief for Phase 2."
+```
+
+Works the same way with Cursor, Windsurf, or any AI coding tool that reads files from your project.
 
 ---
 
